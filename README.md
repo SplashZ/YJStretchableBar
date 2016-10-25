@@ -1,5 +1,10 @@
 YJStretchableBar
 ==================
+[![CocoaPods](http://img.shields.io/cocoapods/v/YJStretchableBar.svg?style=flat)](http://cocoapods.org/?q= YJStretchableBar)&nbsp;
+[![CocoaPods](http://img.shields.io/cocoapods/p/YJStretchableBar.svg?style=flat)](http://cocoapods.org/?q= YJStretchableBar)&nbsp;
+[![Support](https://img.shields.io/badge/support-iOS%207%2B%20-blue.svg?style=flat)](https://img.shields.io/badge/support-iOS%207%2B%20-blue.svg?style=flat)&nbsp;
+![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)
+
 
 YJStretchableToolBar 是一个非常简单易用的可伸缩控制条。
 
