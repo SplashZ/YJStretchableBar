@@ -48,7 +48,7 @@ YJStretchableToolBar 是一个非常简单易用的可伸缩控制条。
 ==================
 
 - ARC
-- 该项目最低支持 `iOS 8.0` 和 `Xcode 7.0`。
+- 该项目最低支持 `iOS 7.0`。
 - 同时支持 iPhone 和 iPad
 
 许可证
