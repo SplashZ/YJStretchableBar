@@ -5,6 +5,56 @@ YJStretchableBar
 [![Support](https://img.shields.io/badge/support-iOS%207%2B%20-blue.svg?style=flat)](https://img.shields.io/badge/support-iOS%207%2B%20-blue.svg?style=flat)&nbsp;
 ![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)
 
+![image](https://github.com/SplashZ/YJStretchableBar/blob/master/demo.gif)
+<br>
+
+English
+==================
+YJStretchableToolBar is an easy and stretchable tool bar.。
+
+Installation
+==================
+
+1. Add pod 'YJStretchableBar' to your Podfile.
+2. Run pod install or pod update.
+3. import <YJStretchableBar/YJStretchableBar.h>.
+
+Feature
+==================
+
+- Support to portrait & landscape
+- Sepcify stretching orientation automatically.
+- Easy and loose coupling
+
+Usage
+==================
+
+```objc
+    
+    _controlBar = [YJStretchableBar toolBarWithButtons:btnArr
+                                           barItemSize:CGSizeMake(50, 50)
+                                         portraitPoint:CGPointMake(0, CGRectGetMidY(self.view.frame) - 25 + 1)
+                                        landscapePoint:CGPointMake(CGRectGetHeight(self.view.frame) * 0.5 - 25 - 1, 0)];
+```
+
+See demo for details.
+
+Requirements
+==================
+
+- ARC
+- Requires iOS 7.0+.
+- Adapt to both iPhone & iPad.
+
+License
+==================
+
+YJStretchableBar is provided under the MIT license.See LICENSE file for details.
+
+
+
+Chiness
+==================
 
 YJStretchableToolBar 是一个非常简单易用的可伸缩控制条。
 
@@ -13,7 +63,7 @@ YJStretchableToolBar 是一个非常简单易用的可伸缩控制条。
 
 1. 在 Podfile 中添加  `pod 'YJStretchableBar'`。
 2. 执行 `pod install` 或 `pod update`。
-3. 导入 \<YJStretchableBar/YJStretchableBar.h>\>。
+3. 导入 <YJStretchableBar/YJStretchableBar.h>。
 
 特色
 ==================
@@ -25,23 +75,13 @@ YJStretchableToolBar 是一个非常简单易用的可伸缩控制条。
 使用
 ==================
 
-一个类方法即可轻松完成初始化
 
 ```objc
-/**
- 初始化伸缩条
 
- @param buttons        伸缩条上的按钮
- @param barItemSize    按钮大小
- @param portraitPoint  竖屏位置
- @param landscapePoint 横屏位置
-
- @return 伸缩条
- */
-+ (instancetype)toolBarWithButtons:(NSArray<UIButton *> *)buttons
-                       barItemSize:(CGSize)barItemSize
-                     portraitPoint:(CGPoint)portraitPoint
-                    landscapePoint:(CGPoint)landscapePoint;
+_controlBar = [YJStretchableBar toolBarWithButtons:btnArr
+                                           barItemSize:CGSizeMake(50, 50)
+                                         portraitPoint:CGPointMake(0, CGRectGetMidY(self.view.frame) - 25 + 1)
+                                        landscapePoint:CGPointMake(CGRectGetHeight(self.view.frame) * 0.5 - 25 - 1, 0)];
 ```
 
 完整例子请参照 demo
