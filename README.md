@@ -5,7 +5,7 @@ YJStretchableBar
 [![Support](https://img.shields.io/badge/support-iOS%207%2B%20-blue.svg?style=flat)](https://img.shields.io/badge/support-iOS%207%2B%20-blue.svg?style=flat)&nbsp;
 ![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)
 
-![image](https://github.com/SplashZ/YJStretchableBar/blob/master/demo.gif)
+![demogif](https://github.com/SplashZ/YJStretchableBar/blob/master/demo.gif)
 <br>
 
 English
@@ -85,9 +85,6 @@ _controlBar = [YJStretchableBar toolBarWithButtons:btnArr
 ```
 
 完整例子请参照 demo
-
-![image](https://github.com/SplashZ/YJStretchableBar/blob/master/portrait.gif)
-![image](https://github.com/SplashZ/YJStretchableBar/blob/master/landscape.gif)
 
 配置
 ==================
